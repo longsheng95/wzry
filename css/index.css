@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    height: 3000px;
+}
+
+.zhuti {
+    width: 100%;
+    height: 900px;
+    background: url(../images/bg.jpg) no-repeat center top;
+    background-size: 100% auto;
+}
+
+.head {
+    height: 42px;
+    background-color: #fff;
+}
+
+header {
+    height: 84px;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+header .nav {
+    width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: pink; */
+}
+
+.nav>img {
+    float: left;
+    margin: 8px 40px 0 0;
+}
+
+.nav ul li {
+    float: left;
+}
+
+.nav ul li a {
+    box-sizing: border-box;
+    display: block;
+    width: 110px;
+    height: 84px;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #c9c9dd;
+    text-align: center;
+}
+
+.nav ul li a p {
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.nav ul li:last-child a {
+    padding-left: 16px;
+}
+
+.login span {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #d9ad50;
+    border-radius: 20px;
+    margin: 21px 0 0 35px;
+}
+
+.login .denglu {
+    float: left;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+.denglu h4 {
+    font-size: 16px;
+    color: #fff;
+}
+
+.denglu p {
+    font-size: 14px;
+    color: #858792;
+    margin-top: 5px;
+}
+
+.middle {
+    width: 1200px;
+    height: 342px;
+    margin: 400px auto 0;
+}
+
+.middle .news-one {
+    float: left;
+    width: 605px;
+    height: 342px;
+}
+
+.middle .news-one .news-one-pic {
+    width: 605px;
+    height: 298px;
+}
+
+.middle .news-one .news-one-pic img {
+    width: 100%;
+}
+
+.middle .news-one .news-one-btn {
+    width: 605px;
+    height: 44px;
+    background-color: #000;
+}
+
+.news-one-btn ul li {
+    float: left;
+    font-size: 14px;
+}
+
+.news-one-btn ul li a {
+    display: block;
+    width: 121px;
+    height: 44px;
+    color: #b1b2be;
+    text-align: center;
+    line-height: 44px;
+}
+
+.news-one-btn ul li a:hover {
+    color: #f3c258;
+    background: rgba(155, 151, 151, .3);
+}
+
+.middle .news-two {
+    float: left;
+    width: 359px;
+    height: 342px;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.middle .news-two .news-two-hd {
+    box-sizing: border-box;
+    width: 359px;
+    height: 49px;
+    border-bottom: 1px solid #000;
+}
+
+.news-two-hd ul li {
+    float: left;
+}
+
+.news-two-hd ul li a{
+    box-sizing: border-box;
+    display: block;
+    width: 59.8333px;
+    height: 49px;
+    color: #b8b9c5;
+    text-align: center;
+    line-height: 49px;
+}
+
+.news-two-hd ul a:hover {
+    border-bottom: 3px solid #f3c258;
+    color: #f3c258;
+}
+
+.middle .news-two .news-two-bd {
+    width: 359px;
+    height: 293px;
+}
+
+.news-two-bd ul li {
+    overflow: hidden;
+    position: relative;
+    margin: 0 15px 13px;
+}
+
+.news-two-bd .xinwen {
+    float: left;
+    color: #1e96ab;
+    font-size: 12px;
+    border: 1px solid #1e96ab;
+    padding: 2px 4px;
+    margin-right: 4px;
+    line-height: 12px;
+}
+
+.news-two-bd .neirong {
+    float: left;
+    color: #b8b9c5;
+    font-size: 14px;
+}
+
+
+.news-two-bd .time {
+    float: right;
+    margin-top: 4px;
+    color: #999;
+    font-size: 12px;
+}
+
+.news-two-bd ul li:nth-child(1) a {
+    display: block;
+    height: 40px;
+    margin-top: 12px;
+    padding-left: 10px;
+    line-height: 40px;
+    color: #f3c258;
+    font-size: 18px;
+    background-color: #414046;
+}
+
+.middle .news-three {
+    float: left;
+    width: 236px;
+    height: 342px;
+    background-color: green;
+}
+
+.wangzhe {
+    width: 1200px;
+    height: 150px;
+    background-color: pink;
+    margin: 10px auto 0;
+}
+
+.content {
+    width: 1200px;
+    height: 400px;
+    background-color: pink;
+    margin: 10px auto 0;
+}
+
+.saishi {
+    width: 1200px;
+    height: 500px;
+    background-color: pink;
+    margin: 10px auto 0;
+}
+
+footer {
+    width: 100%;
+    height: 362px;
+    background: url(../images/bg_footer.jpg) no-repeat;
+    background-size: 100% 100%;
+    margin-top: 100px;
+}
+
+footer .footer-content {
+    width: 1200px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    margin: 0 auto;
+}
