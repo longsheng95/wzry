@@ -220,24 +220,368 @@ header .nav {
 }
 
 .middle .news-three {
+    position: relative;
     float: left;
     width: 236px;
     height: 342px;
-    background-color: green;
+}
+
+.news-three div:nth-child(1) {
+    height: 128px;
+    width: 236px;
+    background: url(../images/index.png) no-repeat 0 -219px;
+}
+
+.news-three div:nth-child(2) {
+    width: 236px;
+    height: 107px;
+    background: url(../images/index.png) no-repeat 0 -350px;
+}
+
+.news-three div:nth-child(3) {
+    width: 236px;
+    height: 107px;
+    background: url(../images/index.png) no-repeat 0 -461px;
+}
+
+.news-three span:nth-child(4) {
+    position: absolute;
+    top: 0;
+    right: -58px;
+    width: 53px;
+    height: 68px;
+}
+
+.news-three span:nth-child(4) img {
+    width: 100%;
+}
+
+.news-three span:nth-child(5) {
+    position: absolute;
+    top: 72px;
+    right: -58px;
+    width: 53px;
+    height: 47px;
+}
+
+.news-three span:nth-child(5) img {
+    width: 100%;
 }
 
 .wangzhe {
     width: 1200px;
-    height: 150px;
-    background-color: pink;
-    margin: 10px auto 0;
+    height: 134px;
+    margin: 20px auto 0;
+}
+
+.wangzhe li {
+    float: left;
+    margin-right: 12px;
+}
+
+.wangzhe li:nth-child(4) {
+    margin: 0;
+}
+
+.wangzhe li a {
+    display: block;
+    width: 291px;
+    height: 134px;
 }
 
 .content {
     width: 1200px;
-    height: 400px;
-    background-color: pink;
+    height: 528px;
+    /* background-color: pink; */
     margin: 10px auto 0;
+}
+
+.content-left {
+    float: left;
+    width: 872px;
+    height: 528px;
+}
+
+.content-left-hd {
+    width: 872px;
+    height: 26px;
+    margin-bottom: 16px;
+}
+
+.content-left-hd h3 {
+    float: left;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.content-left-hd h3::before {
+    display: inline-block;
+    content: "";
+    width: 23px;
+    height: 23px;
+    margin-top: 3px;
+    margin-right: 7px;
+    vertical-align: top;
+    background: url(../images/index.png) no-repeat 0 -107px;
+}
+
+.content-left-hd a{
+    float: right;
+    font-size: 14px;
+    color: #999;
+}
+
+.content-left-hd a::before {
+    display: inline-block;
+    content: "";
+    width: 14px;
+    height: 14px;
+    margin: 3px 7px 0 0;
+    vertical-align: top;
+    background: url(../images/index.png) no-repeat -252px 0;
+}
+
+.content-left-bd {
+    width: 872px;
+    height: 486px;
+}
+
+.content-left-bd .navs {
+    width: 872px;
+    height: 32px;
+    background-color: #f5f5f5;
+}
+
+.content-left-bd .navs ul li {
+    float: left;
+    box-sizing: border-box;
+    width: 290px;
+    height: 32px;
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+    line-height: 32px;
+}
+
+.suxian {
+    float: left;
+    width: 1px;
+    height: 20px;
+    margin-top: 7px;
+    background-color: #e1e1e1;
+}
+
+.content-left-bd .navs li:hover {
+    color: #333333;
+    border-bottom: 3px solid #f3c258;
+}
+
+.content-left-bd .title {
+    width: 872px;
+    height: 43px;
+    margin-top: 5px;
+}
+
+.content-left-bd .title li {
+    float: left;
+    font-size: 14px;
+    color: #333;
+    margin:7px 8px 0 0;
+    padding: 4px 7px 3px 12px;
+    background-color: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    border-radius: 13px;
+}
+
+.content-left-bd .title li:hover {
+    color: #fff;
+    background-color: #f3c258;
+    border-color: #f3c258;
+}
+
+.content-left-bd .bofang {
+    width: 872px;
+    height: 406px;
+}
+
+.bofang {
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+.bofang span {
+    position: relative;
+    display: block;
+    width: 209px;
+    height: 125px;
+}
+
+.bofang span img {
+    width: 100%;
+    height: 100%;
+}
+
+.bofang span div {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 22px;
+    font-size: 12px;
+    color: #fff;
+    padding: 3px 9px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.shuliang {
+    float: left;
+    padding-left: 14px;
+    vertical-align: top;
+    background: url(../images/index.png) no-repeat -256px -62px;
+}
+
+.shijian {
+    float: right;
+}
+
+.bofang p {
+    font-size: 14px;
+    color: #333;
+    margin-top: 13px;
+}
+
+.content-left-bd .bofang li {
+    float: left;
+    margin: 0 12px 28px 0
+}
+
+.content-left-bd .bofang li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.content-left-bd .bofang li a {
+    display: block;
+    width: 209px;
+    height: 175px;
+}
+
+.content-right {
+    float: right;
+    width: 295px;
+    height: 528px;
+}
+
+.content-right-hd {
+    width: 295px;
+    height: 26px;
+}
+
+.content-right-hd h3 {
+    float: left;
+    padding-left: 23px;
+    background: url(../images/index.png) no-repeat -1px -144px;
+}
+
+.content-right-hd span {
+    float: right;
+    padding:0 0 0 17px;
+    line-height: 15px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #999;
+    background: url(../images/index.png) no-repeat -252px 0;
+}
+
+.content-right-bd {
+    width: 295px;
+    height: 470px;
+    margin-top: 16px;
+}
+
+.content-right-bd .hero-nav {
+    width: 295px;
+    height: 32px;
+    margin-bottom: 19px;
+    background-color: #f5f5f5;
+}
+
+.content-right-bd .hero-nav ul li {
+    box-sizing: border-box;
+    float: left;
+    width: 97px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    color: #999;
+}
+
+.content-right-bd .hero-nav ul li:hover {
+    color: #333;
+    border-bottom: 3px solid #f3c258;
+}
+
+.content-right-bd .hero-content {
+    width: 295px;
+    height: 400px;
+}
+
+.newHero {
+    width: 295px;
+    height: 224px;
+}
+
+.newHero img {
+    width: 295px;
+    height: 156px;
+    vertical-align: top;
+}
+
+.newHero span {
+    box-sizing: border-box;
+    display: block;
+    width: 295px;
+    height: 69px;
+    padding: 7px 0 0 11px;
+    border: 1px solid #e5e5e5;
+    border-top: 0;
+}
+
+.newHero span h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.newHero span p {
+    font-size: 12px;
+    color: #999;
+}
+
+.jiuyingxiong {
+    width: 295px;
+    height: 173px;
+    margin-top: 22px;
+}
+
+.jiuyingxiong li {
+    float: left;
+    margin-right: 5px;
+}
+
+.jiuyingxiong li:nth-child(4) {
+    margin-right: 0;
+}
+
+.jiuyingxiong li a {
+    display: block;
+    width: 70px;
+    height: 173px;
+}
+
+.jiuyingxiong li a img {
+    width: 100%;
+    height: 100%;
 }
 
 .saishi {
